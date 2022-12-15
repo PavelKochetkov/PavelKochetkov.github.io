@@ -1,0 +1,17 @@
+[
+    {
+        "name": "JavaScript",
+        "url": "https://www.udemy.com/certificate/UC-d21429ca-ccf5-4e96-aeb0-fb904466c007/",
+        "img": "/img/js.jpg" 
+    },  
+    {
+        "name": "React JS",
+        "url": "https://www.udemy.com/certificate/UC-7717e169-ac1d-456f-ae55-967fe771eaf8/",
+        "img": "/img/React.jpg" 
+    },
+    {
+        "name": "HTML и CSS",
+        "url": "https://stepik.org/cert/1415848",
+        "img": "/img/html5_css3.jpg" 
+    }  
+]

@@ -1,0 +1,47 @@
+.sendmessage {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    margin-top: 150px;
+    font-weight: 500;
+    box-shadow: 2px 2px 2px black;
+    margin-left: 500px;
+    background-color: rgba(136, 127, 235, 0.644);
+}
+
+.button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.button:hover {
+    background-color: rgb(76, 76, 189);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.media {
+    width: 150px;
+    height: 150px;
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.title_sl {
+    margin-top: 10px;
+    box-shadow: 2px 2px 4px 1px rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+.media:hover {
+    box-shadow: 2px 2px 4px 1px rgba(255, 255, 255, 0.61);
+    border-radius: 10px;
+}

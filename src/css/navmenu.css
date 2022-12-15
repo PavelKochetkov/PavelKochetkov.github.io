@@ -1,0 +1,31 @@
+.navmenu {
+    margin-top: 10px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.titlename {
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 35px;
+    color:rgb(255, 255, 255);
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.bt {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size:x-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    text-transform: none;
+}
+
+li a.active {
+    font-weight: bold;
+    color:#0d6efd
+}

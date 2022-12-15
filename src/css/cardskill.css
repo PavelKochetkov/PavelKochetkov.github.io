@@ -1,0 +1,15 @@
+.cardskill {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    padding: 50px;
+    transform: translateY(-150%);
+    animation: animat 2s forwards;
+}
+
+@keyframes animat {
+    0% {transform: translateY(-150%);}
+    50% {transform: translateY(10%);}
+    100% {transform: translateX(0);}
+}

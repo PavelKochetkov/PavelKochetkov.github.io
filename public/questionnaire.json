@@ -1,0 +1,20 @@
+[
+    {
+        "title": "КОЧЕТКОВ ПАВЕЛ ГЕРМАНОВИЧ",
+        "job": "Junior Frontend Developer",
+        "workExpTitle": "ОПЫТ РАБОТЫ",
+        "workExp": "Начинающий программист",
+        "educTitle": "ОБРАЗОВАНИЕ",
+        "titleAcademy": "ФГБОУ ВПО ИГСХА - Магистр",
+        "year": "2012",
+        "titleSpecOne": "Технология обслуживания и ремонта машин в АПК / Инженер",
+        "titleSpecTwo": "Экономика и управление на предприятии АПК / Экономист-менеджер",
+        "titleCourses": "КУРСЫ",
+        "yearCourses": "2022",
+        "titleStepik": "Stepik",
+        "titleUdemy": "Udemy",
+        "stCourses": "Веб-разработка для начинающих: HTML и CSS",
+        "udCoursesOne": "JavaScript 2021 - Полное руководство с нуля до профи",
+        "udCoursesTwo": "React JS. Практический курс 2020 (вкл. Хуки, Классы, Redux)"
+    }
+]

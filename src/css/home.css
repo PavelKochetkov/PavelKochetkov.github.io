@@ -1,0 +1,13 @@
+.home {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px black;
+    font-weight: 500;
+    flex-direction: column;
+    opacity: 0;
+    animation: animationHome 2.5s forwards;
+}
+
+@keyframes animationHome {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}

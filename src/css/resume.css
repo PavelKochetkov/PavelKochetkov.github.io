@@ -1,0 +1,82 @@
+.resume {
+    width: 300px;
+    flex-direction: column; 
+    animation: ani 500ms linear forwards;
+}
+
+.aboutme {
+    background-color: azure;
+    border: 5px solid rgb(57, 93, 160);
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0);
+    border-radius: 10px;
+    cursor: default;
+    width: 600px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 150px;
+    animation: anim 1s forwards;
+}
+
+.sideMenu {
+    font-size: 15px;
+    padding: 10px;
+    background-color: rgb(57, 93, 160);
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0);
+    color: white;
+    cursor: default;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+
+.sideMenu ul {
+    margin-top: 10px;
+}
+
+.contact{
+    padding-left: 10px;
+    text-shadow: 1px 1px 1px  black;
+    font-weight: 500;
+}
+
+.title {
+    padding-left: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background-color: rgb(31, 55, 100);
+    margin-top: 15px;
+    border: 1px solid rgb(151, 144, 144);
+}
+
+.work, .education, .courses, .about {
+    color: rgb(21, 36, 63);
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.workinfo, .educationinfo, .coursesinfo {
+    color: black;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    margin: 300px;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes ani {
+    0% {left: 40px; width: 0;}
+  100% {left: 0; width: 20%; opacity: 0.95;}
+}
+
+@keyframes anim {
+    0% {opacity: 0;}
+  100% {opacity: 0.9;}
+}
