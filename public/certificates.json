@@ -10,8 +10,13 @@
         "img": "/img/React.jpg" 
     },
     {
+        "name": "Git/GitHub",
+        "url": "https://stepik.org/cert/1875033",
+        "img": "/img/git.jpg"
+    },
+    {
         "name": "HTML и CSS",
         "url": "https://stepik.org/cert/1415848",
         "img": "/img/html5_css3.jpg" 
     }  
-]
+] 
