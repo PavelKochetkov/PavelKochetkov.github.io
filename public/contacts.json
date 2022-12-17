@@ -1,18 +1,23 @@
 [
     {
-        "img": "/img/vkontakte.png",
+        "img": "/img/contact/vk.jpg",
         "name": "vkontakte",
         "url": "https://vk.com/id25519335",
         "title": "ВКонтакте"
     }, {
-        "img": "/img/whatsapp.png",
+        "img": "/img/contact/whatsapp.jpg",
         "name": "whatsapp",
         "url": "https://api.whatsapp.com/send?phone=79028825210",
         "title": "WhatsApp"
     }, {
-        "img": "/img/telegram.png",
+        "img": "/img/contact/telegram.jpg",
         "name": "telegram",
         "url": "https://t.me/PKochetkov",
         "title": "Telegram"
+    }, {
+        "img": "/img/contact/GitHub.jpeg",
+        "name": "gitHub",
+        "url": "https://github.com/PavelKochetkov",
+        "title": "GitHub"
     }
 ]

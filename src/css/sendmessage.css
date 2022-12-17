@@ -1,47 +1,52 @@
 .sendmessage {
     display: grid;
-    justify-content: center;
-    grid-template-columns: auto auto auto;
-}
-
-.button {
-    width: 200px;
-    height: 50px;
-    margin-top: 150px;
-    font-weight: 500;
-    box-shadow: 2px 2px 2px black;
-    margin-left: 500px;
-    background-color: rgba(136, 127, 235, 0.644);
-}
-
-.button a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-
-.button:hover {
-    background-color: rgb(76, 76, 189);
-    color: white;
-    text-shadow: 1px 1px 1px black;
+    grid-template-columns: auto auto;
+    grid-column-gap: 150px;
+    grid-row-gap: 100px;
+    width: auto;
+    height: auto;
 }
 
 .media {
-    width: 150px;
-    height: 150px;
-    color: white;
-    text-align: center;
-    margin-top: 150px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-top: 100px;
+    transform: translateX(-450%);
+}
+
+.media a {
+    text-decoration: none;
+}
+
+.media img {
+    border: 4px solid rgba(1, 189, 164, 0.733);
+    opacity: 0.9;
 }
 
 .title_sl {
-    margin-top: 10px;
-    box-shadow: 2px 2px 4px 1px rgb(0, 0, 0);
+    color: rgb(199, 240, 234);
+    opacity: 0;
+    text-align: center;
+    margin-bottom: 10px;
     font-weight: 600;
+    background-color: gray;
+    border-radius: 10px;
+    text-shadow: 2px 1px 1px black;
 }
 
-.media:hover {
-    box-shadow: 2px 2px 4px 1px rgba(255, 255, 255, 0.61);
-    border-radius: 10px;
+.media img:hover {
+    border: 4px solid rgb(1, 189, 164);
+    opacity: 1;
+}
+
+a:hover .title_sl {
+    opacity: 1;
+}
+
+.media:nth-child(1) {animation: folder 1s forwards;}
+.media:nth-child(2) {animation: folder 1s forwards 0.5s;}
+.media:nth-child(3) {animation: folder 1s forwards 1s;}
+.media:nth-child(4) {animation: folder 1s forwards 1.5s;}
+
+@keyframes folder {
+    0% {transform: translateX(-450%);}
+    100% {transform: translateX(0);}
 }
