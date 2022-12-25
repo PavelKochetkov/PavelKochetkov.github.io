@@ -72,6 +72,16 @@ export const Quests = (props) => {
                                         </i>
                                     </small> 
                                 </td>       
+                            </tr>
+                            <tr>
+                                <td><ul><li>{props.quest.yearCourses}</li></ul></td>
+                                <td>{props.quest.titleStepik} 
+                                    <small>
+                                        <i>
+                                            <p>{props.quest.stCoursesTwo}</p>
+                                        </i>
+                                    </small> 
+                                </td>       
                             </tr> 
                         </table>    
                     </span>    

@@ -15,6 +15,7 @@
         "titleUdemy": "Udemy",
         "stCourses": "Веб-разработка для начинающих: HTML и CSS",
         "udCoursesOne": "JavaScript 2021 - Полное руководство с нуля до профи",
-        "udCoursesTwo": "React JS. Практический курс 2020 (вкл. Хуки, Классы, Redux)"
+        "udCoursesTwo": "React JS. Практический курс 2020 (вкл. Хуки, Классы, Redux)",
+        "stCoursesTwo": "Git для всех"
     }
 ]

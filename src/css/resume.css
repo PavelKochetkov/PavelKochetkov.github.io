@@ -61,9 +61,8 @@
 
 .loader {
     display: flex;
-    justify-content: center;
-    margin: 300px;
-    min-height: 100vh;
+    min-height: 80vh;
+    align-items: center;
 }
 
 .container {

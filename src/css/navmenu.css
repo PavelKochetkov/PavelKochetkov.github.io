@@ -3,27 +3,28 @@
     height: 100px;
     margin-left: 10px;
     margin-right: 10px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.164);
 }
 
 .titlename {
     margin-left: 20px;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 35px;
     color:rgb(255, 255, 255);
     margin-bottom: 10px;
     text-shadow: 2px 2px 2px black;
     cursor: default;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .bt {
     color: rgb(255, 255, 255);
-    font-weight: 500;
-    font-size:x-large;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: x-large;
     margin-bottom: 10px;
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
     text-transform: none;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 li a.active {
