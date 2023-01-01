@@ -7,7 +7,7 @@ import {Tech} from '../components/Tech'
 import { Qualities } from '../components/Qualities'
 import { Hobby } from '../components/Hooby'
 import { Quests } from '../components/Quests'
-import {Triangle} from 'react-loader-spinner'
+import {InfinitySpin} from 'react-loader-spinner'
 
 export const About = () => {
     const [languges, setLanguges] = useState([])
@@ -34,7 +34,10 @@ export const About = () => {
             fetchData().then(setLoading(true))
         },1000) 
     }, [])
-    if (!loading) {return <div className='loader'><Triangle color='white'/></div>}
+    if (!loading) {
+        return <div className='loader'>
+                    <InfinitySpin color='LightCyan'/>
+                </div>}
         return (
             <React.Fragment>
                 <div className='resume container-sm'>

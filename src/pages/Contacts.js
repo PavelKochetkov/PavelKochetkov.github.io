@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { baseUrl } from '../config'
 import {Sendmessage} from '../components/Sendmessage'
-import {Triangle} from 'react-loader-spinner'
+import {InfinitySpin} from 'react-loader-spinner'
 import axios from 'axios'
 import '../css/sendmessage.css'
 
@@ -18,7 +18,10 @@ export const Contacts = () => {
             fetchData().then(setLoading(true))
         },1000) 
     }, [])
-    if (!loading) {return <div className='loader'><Triangle color='white'/></div>}
+    if (!loading) {
+        return <div className='loader'>
+                    <InfinitySpin color='LightCyan'/>
+                </div>}
     return(
         <div className='sendmessage'>
             {contacts.map(contact => <Sendmessage contact={contact}/>)}

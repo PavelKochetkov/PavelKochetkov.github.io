@@ -3,7 +3,7 @@
     height: 100px;
     margin-left: 10px;
     margin-right: 10px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.164);
+    border-bottom: 1px solid rgba(70, 131, 180, 0.45);
 }
 
 .titlename {
@@ -25,6 +25,7 @@
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
     text-transform: none;
     font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
 }
 
 li a.active {

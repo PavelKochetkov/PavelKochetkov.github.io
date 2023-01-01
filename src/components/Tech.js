@@ -7,10 +7,11 @@ export const Tech = (props) => {
                 <div className='contact'>                
                     <div className='title'>{props.skill.title}</div>                    
                         <ul key={props.skill.id}>
-                            <li>{props.skill.html}</li>
-                            <li>{props.skill.css}</li>
                             <li>{props.skill.js}</li>
                             <li>{props.skill.react}</li>
+                            <li>{props.skill.git}</li>
+                            <li>{props.skill.html}</li>
+                            <li>{props.skill.css}</li>
                         </ul>
                 </div>
         </div>

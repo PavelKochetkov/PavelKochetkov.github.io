@@ -1,11 +1,17 @@
 .home {
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px 2px black;
-    font-weight: 500;
     min-height: 85vh;
     opacity: 0;
     animation: animationHome 2.5s forwards;
     align-items: center;
+}
+
+.home h2 {
+    letter-spacing: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    cursor: default;
 }
 
 @keyframes animationHome {
