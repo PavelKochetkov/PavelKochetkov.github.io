@@ -7,7 +7,7 @@ import {Tech} from '../components/Tech'
 import { Qualities } from '../components/Qualities'
 import { Hobby } from '../components/Hooby'
 import { Quests } from '../components/Quests'
-import {InfinitySpin} from 'react-loader-spinner'
+import { Loader } from '../components/Loader'
 
 export const About = () => {
     const [languges, setLanguges] = useState([])
@@ -36,7 +36,7 @@ export const About = () => {
     }, [])
     if (!loading) {
         return <div className='loader'>
-                    <InfinitySpin color='LightCyan'/>
+                    <Loader/>
                 </div>}
         return (
             <React.Fragment>

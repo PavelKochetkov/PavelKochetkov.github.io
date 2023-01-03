@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import { Cardskill } from '../components/Cardskill'
 import { baseUrl } from '../config'
-import {InfinitySpin} from 'react-loader-spinner'
+import { Loader } from '../components/Loader'
 
 export const Skill = () => {
   const [certificates, setCertificates] = useState([])
@@ -18,7 +18,7 @@ export const Skill = () => {
   }, [])
   if (!loading) {
     return <div className='loader'>
-              <InfinitySpin color='LightCyan'/>
+              <Loader/>
             </div>}
   return (
     <div className = "cardskill mt-5">

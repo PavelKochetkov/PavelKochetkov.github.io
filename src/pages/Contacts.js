@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { baseUrl } from '../config'
 import {Sendmessage} from '../components/Sendmessage'
-import {InfinitySpin} from 'react-loader-spinner'
+import { Loader } from '../components/Loader'
 import axios from 'axios'
 import '../css/sendmessage.css'
 
@@ -20,7 +20,7 @@ export const Contacts = () => {
     }, [])
     if (!loading) {
         return <div className='loader'>
-                    <InfinitySpin color='LightCyan'/>
+                    <Loader/>
                 </div>}
     return(
         <div className='sendmessage'>
