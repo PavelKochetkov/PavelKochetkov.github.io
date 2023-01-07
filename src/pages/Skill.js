@@ -9,19 +9,17 @@ export const Skill = () => {
   const [loading, setLoading] = useState(false)
   useEffect (() => {
     const fetchData = async () => {
+      setLoading(true)
       const response = await axios.get(`${baseUrl}certificates.json`)
       setCertificates(response.data)
+      setLoading(false)
     }
-    setTimeout(() => {
-      fetchData().then(setLoading(true))
-    },1000) 
+    fetchData()
   }, [])
-  if (!loading) {
-    return <div className='loader'>
-              <Loader/>
-            </div>}
+  
   return (
     <div className = "cardskill mt-5">
+      {loading && <Loader/>}
       {certificates.map(certificate => <Cardskill certificate={certificate}/>)}
     </div>
   )     

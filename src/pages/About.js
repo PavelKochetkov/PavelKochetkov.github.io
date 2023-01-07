@@ -19,27 +19,24 @@ export const About = () => {
     
     useEffect(() => {
         const fetchData = async () => {
+            setLoading(true)
             const resLanguge = await axios.get(`${baseUrl}userLanguges.json`)
-            setLanguges(resLanguge.data)
+                setLanguges(resLanguge.data)
             const resTech = await axios.get(`${baseUrl}tech.json`)
-            setTech(resTech.data)
+                setTech(resTech.data)
             const resQualities = await axios.get(`${baseUrl}userQualities.json`)
-            setQualities(resQualities.data)
+                setQualities(resQualities.data)
             const resHobby = await axios.get(`${baseUrl}userHobby.json`)
-            setHobbies(resHobby.data)
+                setHobbies(resHobby.data)
             const resQuest = await axios.get(`${baseUrl}questionnaire.json`)
-            setQuests(resQuest.data)
+                setQuests(resQuest.data)
+            setLoading(false)
         }
-        setTimeout(() => {
-            fetchData().then(setLoading(true))
-        },1000) 
+        fetchData()
     }, [])
-    if (!loading) {
-        return <div className='loader'>
-                    <Loader/>
-                </div>}
         return (
             <React.Fragment>
+                {loading && <Loader/>}
                 <div className='resume container-sm'>
                     {tech.map(skill => <Tech skill={skill}/>)}
                     {languges.map(languge => <Languges languge={languge}/>)}

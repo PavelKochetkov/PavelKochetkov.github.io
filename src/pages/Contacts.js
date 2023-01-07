@@ -11,19 +11,17 @@ export const Contacts = () => {
     
     useEffect(() => {
         const fetchData = async () => {
+            setLoading(true)
             const resContacts = await axios.get(`${baseUrl}contacts.json`)
             setContacts(resContacts.data)
+            setLoading(false)
         }
-        setTimeout(() => {
-            fetchData().then(setLoading(true))
-        },1000) 
+        fetchData()   
     }, [])
-    if (!loading) {
-        return <div className='loader'>
-                    <Loader/>
-                </div>}
+   
     return(
         <div className='sendmessage'>
+            {loading && <Loader/>}
             {contacts.map(contact => <Sendmessage contact={contact}/>)}
         </div>
     )
